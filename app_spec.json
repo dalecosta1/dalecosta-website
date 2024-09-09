@@ -1,0 +1,9 @@
+{
+  "app": {
+    "services": [{
+      "name": "dalecosta-website",
+      "environment_slug": "docker-20-04",
+      "docker_image": "dalecosta-website:v1.0.4"
+    }]
+  }
+}

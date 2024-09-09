@@ -1,0 +1,28 @@
+---
+import CertificationCard from '@components/cards/CertificationCard.astro';
+---
+
+<h3 class="font-medium mt-12">Certifications</h3>
+<div class="mb-4">
+    <p>Explore the certifications I've earned across various domains (Click on the badge or the name to view more details about each certification).</p>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center items-center max-w-5xl mx-auto">
+    <CertificationCard 
+        title="AZ-900" 
+        description="Microsoft Azure Fundamentals" 
+        icon="/badges/az-900.svg" 
+        link="https://learn.microsoft.com/en-us/users/nicolcostantini-3711/credentials/bd11214961c78e64?ref=https%3A%2F%2Fwww.linkedin.com%2F" 
+    />
+    <CertificationCard 
+        title="AZ-204" 
+        description="Microsoft Azure Developer Associate" 
+        icon="/badges/az-204.svg" 
+        link="https://learn.microsoft.com/en-us/users/nicolcostantini-3711/credentials/b881a29dfcb2a2e7?ref=https%3A%2F%2Fwww.linkedin.com%2F" 
+    />
+    <CertificationCard 
+        title="AZ-400" 
+        description="Microsoft Azure DevOps Engineer Expert" 
+        icon="/badges/az-400.svg" 
+        link="https://learn.microsoft.com/en-us/users/nicolcostantini-3711/credentials/970f4642d939051c?ref=https%3A%2F%2Fwww.linkedin.com%2F" 
+    />
+</div>
